@@ -1,0 +1,3 @@
+﻿  2048.cpp
+C:\Users\coelh\source\repos\2048\2048.cpp(52,7): warning C4101: 'mycell' : variable locale non référencée
+  2048.vcxproj -> C:\Users\coelh\source\repos\2048\x64\Debug\2048.exe
