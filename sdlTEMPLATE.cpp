@@ -1,11 +1,13 @@
 #include <iostream>
 #include <SDL.h>
 
+using namespace std;
+
 class Window {
 public:
     Window(const char* title, int width, int height) : window(NULL), renderer(NULL) {
         if (SDL_Init(SDL_INIT_EVERYTHING) < 0) {
-            std::cout << "Error initializing SDL: " << SDL_GetError() << std::endl;
+            cout << "Error initializing SDL: " << SDL_GetError() << std::endl;
             exit(1);
         }
 
@@ -14,7 +16,7 @@ public:
         renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
 
         if (!window || !renderer) {
-            std::cout << "Error creating window or renderer: " << SDL_GetError() << std::endl;
+            cout << "Error creating window or renderer: " << SDL_GetError() << std::endl;
             exit(1);
         }
     }
@@ -62,7 +64,7 @@ public:
     }
 
     void Render(SDL_Renderer* renderer) {
-        SDL_SetRenderDrawColor(renderer, 255, 0, 0, 255);
+        SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
         SDL_RenderFillRect(renderer, &rect);
     }
 

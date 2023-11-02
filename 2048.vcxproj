@@ -71,8 +71,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Users\Lorenzo\source\repos\GT2-2048\SDL2\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Lorenzo\source\repos\GT2-2048\SDL2\lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\lmolina\source\repos\GT2-2048\SDL2\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\lmolina\source\repos\GT2-2048\SDL2\lib\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -138,6 +138,7 @@
     <ClCompile Include="fusion.cpp" />
     <ClCompile Include="gamegrid.cpp" />
     <ClCompile Include="movement.cpp" />
+    <ClCompile Include="sdl.cpp" />
     <ClCompile Include="sdlTEMPLATE.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -146,6 +147,9 @@
     <ClInclude Include="fusion.h" />
     <ClInclude Include="gamegrid.h" />
     <ClInclude Include="movement.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="img\test.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
