@@ -4,7 +4,7 @@
 #include <random>
 #include <conio.h>
 
-#include "defeate.h"
+#include "fusion.h"
 
 #define KEY_UP 72
 #define KEY_DOWN 80
@@ -19,7 +19,7 @@ int main()
     Movement move;
     GameGrid jeu;
     Fusion fusion;
-    Defeate gameover;
+    //Defeate gameover;
     jeu.createGrid(); //creation de la grid
     jeu.placementInit(); //placement des deux premières valeurs 
     while (true) {
@@ -53,10 +53,10 @@ int main()
                 badKey = true;
                 break;
         }
-        if (gameover.GameOver(jeu.grid) == true) {
+        /*if (gameover.GameOver(jeu.grid) == true) {
             jeu.display();
             cout << "Jeu termine";
             break;
-        }
+        }*/
     }
 }
