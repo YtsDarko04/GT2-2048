@@ -8,9 +8,9 @@ class GameGrid
 {
 
 public:
-    
+
     GameGrid();
-    vector<vector<Cell>> grid;
+    vector<vector<Cell*>> grid;
 
     void createGrid();
 
@@ -21,4 +21,7 @@ public:
     void rPlacementCell();
 
     void updateMergedCells();
+
+private:
+    SDL_Renderer* renderer;
 };

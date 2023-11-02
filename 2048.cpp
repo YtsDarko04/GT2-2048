@@ -13,7 +13,7 @@
 
 using namespace std;
 
-int main()
+int main(int argc, char** argv)
 {
     bool badKey = true;
     Movement move;
@@ -59,4 +59,6 @@ int main()
             break;
         }*/
     }
+
+    return 0;
 }

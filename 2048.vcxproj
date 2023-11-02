@@ -137,18 +137,34 @@
     <ClCompile Include="defeate.cpp" />
     <ClCompile Include="fusion.cpp" />
     <ClCompile Include="gamegrid.cpp" />
+    <ClCompile Include="gameobject.cpp" />
+    <ClCompile Include="Image.cpp" />
     <ClCompile Include="movement.cpp" />
-    <ClCompile Include="sdl.cpp" />
-    <ClCompile Include="sdlTEMPLATE.cpp" />
+    <ClCompile Include="window.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cell.h" />
     <ClInclude Include="defeate.h" />
     <ClInclude Include="fusion.h" />
     <ClInclude Include="gamegrid.h" />
+    <ClInclude Include="gameobject.h" />
+    <ClInclude Include="image.h" />
     <ClInclude Include="movement.h" />
+    <ClInclude Include="window.h" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="img\0.bmp" />
+    <Image Include="img\1024.bmp" />
+    <Image Include="img\128.bmp" />
+    <Image Include="img\16.bmp" />
+    <Image Include="img\2.bmp" />
+    <Image Include="img\2048.bmp" />
+    <Image Include="img\256.bmp" />
+    <Image Include="img\32.bmp" />
+    <Image Include="img\4.bmp" />
+    <Image Include="img\512.bmp" />
+    <Image Include="img\64.bmp" />
+    <Image Include="img\8.bmp" />
     <Image Include="img\test.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

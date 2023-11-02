@@ -1,6 +1,10 @@
 #include "cell.h"
+#include <SDL.h>
 
-Cell::Cell () {
+#include "image.h"
+
+Cell::Cell(int x, int y, int width, int height, SDL_Renderer* renderer) : GameObject(x, y, width, height, renderer)
+{
     m_value = 0;
     m_isEmpty = true;
     m_isMerged = false;
@@ -9,6 +13,8 @@ Cell::Cell () {
 void Cell::setValue(int value) {
     m_value = value;
     m_isEmpty = false;
+
+    texture = images->getImage(m_value);
 }
 
 int Cell::getValue() {

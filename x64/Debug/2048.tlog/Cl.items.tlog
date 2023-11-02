@@ -1,1 +1,9 @@
-C:\Users\lmolina\source\repos\GT2-2048\sdl.cpp;C:\Users\lmolina\source\repos\GT2-2048\x64\Debug\sdl.obj
+C:\Users\lmolina\source\repos\GT2-2048\2048.cpp;C:\Users\lmolina\source\repos\GT2-2048\x64\Debug\2048.obj
+C:\Users\lmolina\source\repos\GT2-2048\cell.cpp;C:\Users\lmolina\source\repos\GT2-2048\x64\Debug\cell.obj
+C:\Users\lmolina\source\repos\GT2-2048\defeate.cpp;C:\Users\lmolina\source\repos\GT2-2048\x64\Debug\defeate.obj
+C:\Users\lmolina\source\repos\GT2-2048\fusion.cpp;C:\Users\lmolina\source\repos\GT2-2048\x64\Debug\fusion.obj
+C:\Users\lmolina\source\repos\GT2-2048\gamegrid.cpp;C:\Users\lmolina\source\repos\GT2-2048\x64\Debug\gamegrid.obj
+C:\Users\lmolina\source\repos\GT2-2048\gameobject.cpp;C:\Users\lmolina\source\repos\GT2-2048\x64\Debug\gameobject.obj
+C:\Users\lmolina\source\repos\GT2-2048\Image.cpp;C:\Users\lmolina\source\repos\GT2-2048\x64\Debug\Image.obj
+C:\Users\lmolina\source\repos\GT2-2048\movement.cpp;C:\Users\lmolina\source\repos\GT2-2048\x64\Debug\movement.obj
+C:\Users\lmolina\source\repos\GT2-2048\window.cpp;C:\Users\lmolina\source\repos\GT2-2048\x64\Debug\window.obj
