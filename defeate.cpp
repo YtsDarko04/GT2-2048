@@ -25,13 +25,16 @@ bool Defeate::GameOver(vector<vector<Cell>>& grid) {
                     GameOverLst.push_back(1);
                 }
             }
-        for (int i = 0; i < GameOverLst.size(); i++) {
-            if (GameOverLst[i] == 0) {
-                isGameover = false;
-            }
-            else {
-                isGameover = true;
-            }
+            if (GameOverLst.empty()){
+                for (int i = 0; i < GameOverLst.size(); i++) {
+					if (GameOverLst[i] == 0) {
+						isGameover = false;
+					}
+					else {
+						isGameover = true;
+					}
+                }
+				
             }
         }
     }
