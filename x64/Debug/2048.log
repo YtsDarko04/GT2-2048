@@ -1,3 +1,2 @@
-﻿  Image.cpp
-C:\Users\lmolina\source\repos\GT2-2048\Image.cpp(29,15): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
-  2048.vcxproj -> C:\Users\lmolina\source\repos\GT2-2048\x64\Debug\2048.exe
+﻿  sdl.cpp
+  2048.vcxproj -> C:\Users\Lorenzo\source\repos\GT2-2048\x64\Debug\2048.exe

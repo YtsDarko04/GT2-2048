@@ -71,8 +71,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Users\lmolina\source\repos\GT2-2048\SDL2\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\lmolina\source\repos\GT2-2048\SDL2\lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)\SDL2\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)\SDL2\lib\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -132,15 +132,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="2048.cpp" />
-    <ClCompile Include="cell.cpp" />
-    <ClCompile Include="defeate.cpp" />
-    <ClCompile Include="fusion.cpp" />
-    <ClCompile Include="gamegrid.cpp" />
-    <ClCompile Include="gameobject.cpp" />
-    <ClCompile Include="Image.cpp" />
-    <ClCompile Include="movement.cpp" />
-    <ClCompile Include="window.cpp" />
+    <ClCompile Include="sdl.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cell.h" />
