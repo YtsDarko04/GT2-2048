@@ -58,7 +58,6 @@ void GameGrid::rPlacementCell() {
         grid[rCell / 4][rCell % 4].setValue(rValue);
     }
     else {
-        cout << "valeur détecte dans la case selectionnee, relancement de la fonction \n";
         rPlacementCell();
     }
 }

@@ -1,2 +1,10 @@
-﻿  defeate.cpp
+﻿  2048.cpp
+  cell.cpp
+  defeate.cpp
+  fusion.cpp
+  gamegrid.cpp
+C:\Users\Lorenzo\source\repos\GT2-2048\gamegrid.cpp(36,15): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+  movement.cpp
+  Génération de code en cours...
+  LINK : C:\Users\Lorenzo\source\repos\GT2-2048\x64\Debug\2048.exe introuvable ou non généré par la dernière édition de liens incrémentielle ; édition de liens complète en cours
   2048.vcxproj -> C:\Users\Lorenzo\source\repos\GT2-2048\x64\Debug\2048.exe
