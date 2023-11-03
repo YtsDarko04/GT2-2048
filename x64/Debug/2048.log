@@ -1,3 +1,13 @@
-﻿  Image.cpp
-C:\Users\lmolina\source\repos\GT2-2048\Image.cpp(29,15): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
-  2048.vcxproj -> C:\Users\lmolina\source\repos\GT2-2048\x64\Debug\2048.exe
+﻿  2048.cpp
+  cell.cpp
+  defeate.cpp
+  fusion.cpp
+  gamegrid.cpp
+C:\Users\Lorenzo\source\repos\GT2-2048\gamegrid.cpp(42,15): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+  gameobject.cpp
+  Image.cpp
+C:\Users\Lorenzo\source\repos\GT2-2048\Image.cpp(29,15): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
+  movement.cpp
+  window.cpp
+  Génération de code en cours...
+  2048.vcxproj -> C:\Users\Lorenzo\source\repos\GT2-2048\x64\Debug\2048.exe
